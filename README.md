@@ -1,5 +1,4 @@
 # vue-gpt-example
-To get an API KEY you need to register new OPEN AI account and then visit https://platform.openai.com/account/api-keys
 Чтобы получить API KEY, Вам необходимо зарегистрировать новую учетную запись OPEN API, а затем посетить https://platform.openai.com/account/api-keys
 
 [Демо](http://kypaku.ru/pages/vue-gpt-example/)
