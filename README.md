@@ -1,32 +1,33 @@
 # vue-gpt-example
 To get an API KEY you need to register new OPEN AI account and then visit https://platform.openai.com/account/api-keys
+Чтобы получить API KEY, Вам необходимо зарегистрировать новую учетную запись OPEN API, а затем посетить https://platform.openai.com/account/api-keys
 
-[Demo](http://kypaku.ru/pages/vue-gpt-example/)
+[Демо](http://kypaku.ru/pages/vue-gpt-example/)
 
-## Clone:
+## Копия:
 ```
 git clone https://github.com/Kypaku/vue-gpt-example
 ```
 
-## Project setup
+## Настройка проекта
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Компиляция и горячая перезагрузка для разработки
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Компиляция и минимизация для выпуска
 ```
 npm run build
 ```
 
-### Lints and fixes files
+### Файлы строк и исправлений
 ```
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Настройка конфигурации
+Смотрите [Ссылка на конфигурацию](https://cli.vuejs.org/config/).
