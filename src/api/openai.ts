@@ -1,4 +1,7 @@
 import { Configuration, OpenAIApi, CreateCompletionRequest, CreateCompletionResponse, CreateImageRequestSizeEnum } from "openai";
+import { ChatGPTAPI } from "chatgpt";
+
+console.log(ChatGPTAPI);
 
 export default class SimpleGPT {
     protected _key: string
