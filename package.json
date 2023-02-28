@@ -11,6 +11,7 @@
     "autoprefixer": "^9.8.8",
     "chatgpt": "^4.4.1",
     "core-js": "^3.6.5",
+    "gpt-simple-api-ts": "^1.0.9",
     "local-storage": "^2.0.0",
     "openai": "^3.1.0",
     "postcss": "^8",

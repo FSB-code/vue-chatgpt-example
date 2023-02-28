@@ -31,7 +31,7 @@
 </template>
 
 <script lang='ts'>
-    import SimpleGPT from "./api/openai";
+    import SimpleAPI from 'gpt-simple-api-ts'
     import { defineComponent } from "@vue/runtime-core";
     import InputText from "./components/misc/InputText.vue";
     import InputTextarea from "./components/misc/InputTextarea.vue";
@@ -61,7 +61,7 @@
                 isLoading: false,
                 promt: "",
                 apiKey: process.env.OPENAI_API_KEY || "",
-                api: new SimpleGPT({ key: process.env.OPENAI_API_KEY || "" }),
+                api: new SimpleAPI({ key: process.env.OPENAI_API_KEY || "" }),
             };
         },
         computed: {
@@ -79,7 +79,7 @@
                         image: 'getImage',
                     } as {[key: string]: string}
                     try {
-                        const res = await (this.api as any)[(handlers[this.tab] || 'getFirst')](this.promt);
+                        const res = await (this.api as any)[(handlers[this.tab] || 'chatGPT')](this.promt);
                         this.result = res || "";
                     } catch (e) {
                         console.error("App error: " + e);
